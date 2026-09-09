@@ -1,0 +1,30 @@
+/* HEADER */
+
+header {
+    background-image: linear-gradient(dodgerblue, blue);
+    height: 70px;
+}
+
+/* LOGO */
+
+header div.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header div.logo a p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header div.logo a p span.logo1 {
+    top: 2px;
+    position: absolute;
+    left: 10px;
+}
+
+header div.logo a p span.logo2 {
+    top: 32px;
+    position: absolute;
+    left: 9px;
+}
