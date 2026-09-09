@@ -42,13 +42,30 @@
 
         <div class="logo"><a href="index.html"><p><span class="logo1">Answering</span> <span class="logo2">Errors</span></p></a></div>
 
+        <div class="menuButton" onclick="openMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
     </header>
 
     <!-- NAVIGATION -->
 
-    <nav>
+    <nav id="nav">
 
-    
+        <div class="menuClose" onclick="closeMenu()">
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="mobileMenu">
+            <div><a href="index.html"><p class="active">Home</p></a></div>
+            <div><a href="#"><p>Test</p></a></div>
+            <div><a href="#"><p>Test</p></a></div>
+            <div><a href="#"><p>Test</p></a></div>
+            <div><a href="#"><p>About</p></a></div>
+        </div>
 
     </nav>
 
@@ -72,6 +89,6 @@
 
 <!-- JAVASCRIPT -->
 
-<script src="scripts/index.js"
+<script src="scripts/index.js"></script>
 
 </html>

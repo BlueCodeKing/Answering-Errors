@@ -28,3 +28,90 @@ header div.logo a p span.logo2 {
     position: absolute;
     left: 9px;
 }
+
+/* MENU BUTTON */
+
+header div.menuButton {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 40px;
+    margin: 20px 15px 0 0;
+    justify-content: space-between;
+    float: right;
+}
+
+header div.menuButton div {
+    background-color: white;
+    width: 98%;
+    height: 6px;
+    border-radius: 3px;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    background-color: rgb(41, 41, 41);
+    height: 100dvh;
+    width: 100vw;
+    z-index: 100;
+    transition: .4s;
+}
+
+nav div.menuClose {
+    width: 40px;
+    height: 40px;
+}
+
+nav div.menuClose div {
+    height: 6px;
+    width: 45px;
+    border-radius: 3px;
+}
+
+nav div.menuClose div:first-child {
+    position: absolute;
+    background-color: white;
+    right: 15px;
+    top: 35px;
+    transform: rotate(-45deg);
+}
+
+nav div.menuClose div:last-child {
+    position: absolute;
+    background-color: white;
+    right: 15px;
+    top: 35px;
+    transform: rotate(45deg);
+}
+
+nav div.mobileMenu {
+    display: flex;
+    margin: 8dvh;
+    height: 75dvh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div.mobileMenu div {
+
+}
+
+nav div.mobileMenu div a {
+    color: white;
+    text-decoration: none;
+}
+
+nav div.mobileMenu div a p {
+    font-size: 35px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+nav div.mobileMenu div a p.active, nav div.mobileMenu div a p:hover {
+    color: dodgerblue;
+}
