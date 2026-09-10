@@ -39,6 +39,7 @@ header div.menuButton {
     margin: 20px 15px 0 0;
     justify-content: space-between;
     float: right;
+    cursor: pointer;
 }
 
 header div.menuButton div {
@@ -61,36 +62,44 @@ nav {
     transition: .4s;
 }
 
+/* CLOSE MENU BUTTON */
+
 nav div.menuClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     width: 40px;
     height: 40px;
+    margin: 0;
+    z-index: 10;
+    display: inline-block;
+    cursor: pointer;
 }
 
 nav div.menuClose div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 98%;
     height: 6px;
-    width: 45px;
+    background-color: white;
     border-radius: 3px;
+    transform-origin: center;
 }
 
 nav div.menuClose div:first-child {
-    position: absolute;
-    background-color: white;
-    right: 15px;
-    top: 35px;
-    transform: rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
 }
 
 nav div.menuClose div:last-child {
-    position: absolute;
-    background-color: white;
-    right: 15px;
-    top: 35px;
-    transform: rotate(45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+/* MENU */
 
 nav div.mobileMenu {
     display: flex;
-    margin: 8dvh;
+    margin-top: 12.5dvh;
     height: 75dvh;
     flex-direction: column;
     justify-content: space-between;

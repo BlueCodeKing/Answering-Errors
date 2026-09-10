@@ -1,0 +1,41 @@
+div.optionsStack {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    width: 92dvw;
+    margin: 5dvh auto;
+    height: fit-content;
+}
+
+div.optionsStack h1 {
+    color: white;
+    text-align: center;
+}
+
+div.optionsStack div {
+    background-color: blue;
+    border: solid 4px navy;
+    border-radius: 12px;
+    transition: .4s;
+}
+
+div.optionsStack div:hover {
+    background-color: dodgerblue;
+}
+
+div.optionsStack div a {
+    color: white;
+    text-decoration: none;
+}
+
+div.optionsStack div a p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 15px 0;
+}
+
+hr {
+    width: 90%;
+    margin: 0 5%;
+}

@@ -13,3 +13,7 @@ body {
     background-attachment: fixed;
     min-height: 100dvh;
 }
+
+main {
+    min-height: calc(100dvh - 70px);
+}
