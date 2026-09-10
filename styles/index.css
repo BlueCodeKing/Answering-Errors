@@ -1,9 +1,11 @@
+/* MAIN RELIGION LINKS */
+
 div.optionsStack {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
     width: 92dvw;
-    margin: 5dvh auto;
+    margin: 3dvh auto;
     height: fit-content;
 }
 
@@ -13,11 +15,24 @@ div.optionsStack h1 {
     font-size: 25px;
 }
 
+div.optionsStack h1 span {
+    display: none;
+}
+
 div.optionsStack div {
     background-color: blue;
     border: solid 4px navy;
     border-radius: 12px;
     transition: .4s;
+}
+
+div.optionsStack div.gray {
+    background-color: gray;
+    border-color: rgb(65, 65, 65);
+}
+
+div.optionsStack div.gray:hover {
+    background-color: rgb(194, 0, 0);
 }
 
 div.optionsStack div:hover {
@@ -37,6 +52,37 @@ div.optionsStack div a p {
 }
 
 hr {
-    width: 90%;
-    margin: 0 5%;
+    width: 92vw;
+    margin: 0  0 0 4vw;
+}
+
+div.introTexts p {
+    color: white;
+    font-size: 20px;
+    margin: 20px 4vw 0 4vw;
+}
+
+div.introTexts p:last-child {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 400px) {
+
+    div.optionsStack h1 span {
+        display: inline;
+    }
+
+}
+
+@media (min-width: 535px) {
+
+    div.optionsStack h1 {
+        font-size: 32px;
+    }
+
+    div.introTexts p {
+        font-size: 28px;
+        margin: 20px 0 0 4vw;
+    }
+
 }
