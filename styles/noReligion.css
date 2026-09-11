@@ -1,5 +1,57 @@
 /*  */
 
+div.smallMenu {
+    width: 98vw;
+    margin: 15px auto 0;
+    border-radius: 12px;
+}
+
+div.smallMenu div {
+    background-color: blue;
+    border: solid 4px navy;
+    border-top: none;
+}
+
+div.smallMenu div.gray {
+    background-color: gray;
+}
+
+div.smallMenu div.gray {
+    background-color: gray;
+}
+
+div.smallMenu div:first-child {
+    border-top: solid 4px navy;
+}
+
+div.smallMenu div:first-child {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div.smallMenu div p.optionHeader {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    background-color: navy;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.smallMenu div a {
+    color: white;
+    text-decoration: none;
+}
+
+div.smallMenu div a p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+div.smallMenu div:last-child {
+    border-radius: 0 0 12px 12px;
+}
 
 @media (min-width: 400px) {
 
