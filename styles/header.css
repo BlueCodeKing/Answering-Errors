@@ -119,8 +119,17 @@ nav div.mobileMenu div a p {
     font-size: 35px;
     font-weight: bold;
     transition: .4s;
+    text-align: center;
 }
 
 nav div.mobileMenu div a p.active, nav div.mobileMenu div a p:hover {
     color: dodgerblue;
+}
+
+@media (min-width: 450px) {
+
+    nav {
+        width: 300px;
+    }
+
 }

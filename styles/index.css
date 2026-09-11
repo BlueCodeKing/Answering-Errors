@@ -82,7 +82,59 @@ div.introTexts p:last-child {
 
     div.introTexts p {
         font-size: 28px;
-        margin: 20px 0 0 4vw;
+    }
+
+}
+
+@media (min-width: 650px) {
+
+    div.optionsStack {
+        width: 510px;
+    }
+
+    hr {
+        width: 510px;
+        margin: 0 auto;
+    }
+
+    div.introTexts {
+        width: 510px;
+        margin: 20px auto 0;
+    }
+
+    div.introTexts p {
+        margin: 0 0 20px;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    div.optionsStack h1 {
+        font-size: 35px;
+    }
+
+    div.optionsStack div a p {
+        font-size: 2.5em;
+        padding: 15px 0;
+    }
+
+    div.optionsStack {
+        width: 650px;
+    }
+
+    hr {
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    div.introTexts {
+        width: 650px;
+        margin: 20px auto 0;
+    }
+
+    div.introTexts p {
+        margin: 0 0 20px;
     }
 
 }
