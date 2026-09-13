@@ -1,0 +1,55 @@
+/* SMALL MENUS */
+
+div.smallMenu {
+    margin: 2vw auto 0;
+    width: calc(96vw - 8px);
+    border-radius: 12px;
+    border: solid 4px navy;
+    max-width: 800px;
+}
+
+div.smallMenu div p.optionHeader {
+    color: white;
+    font-weight: bold;
+    background-color: navy;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+div.smallMenu div {
+    background-color: blue;
+    border-bottom: solid 4px navy;
+    transition: .4s;
+}
+
+div.smallMenu div:hover {
+    background-color: dodgerblue;
+}
+
+div.smallMenu div:last-child {
+    border-bottom: none;
+}
+
+div.smallMenu div a {
+    color: white;
+    text-decoration: none;
+}
+
+div.smallMenu div a p {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 12px;
+    font-size: 25px;
+}
+
+div.smallMenu div a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ARGUMENTS BUTTONS */
+
+div.smallMenu div a p.left {
+    text-align: left;
+}
