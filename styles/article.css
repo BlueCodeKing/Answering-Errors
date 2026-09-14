@@ -1,0 +1,156 @@
+article {
+    margin: 2vw auto 0;
+    width: calc(96vw - 8px);
+    border-radius: 12px;
+    border: solid 4px navy;
+    background-color: blue;
+    color: white;
+}
+
+article h1 {
+    text-align: center;
+    background-color: navy;
+    font-size: 20px;
+    padding: 13px 10px 15px;
+}
+
+article h2 {
+    background-color: navy;
+    border-radius: 0 30px 30px 0;
+    width: fit-content;
+    padding: 10px 30px 10px 20px;
+    margin: 12px 0;
+    font-size: 18px;
+    corner-shape: bevel;
+}
+
+article p {
+    font-size: 18px;
+    margin: 9px 14px;
+}
+
+article a {
+    color: white;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol li {
+    font-size: 18px;
+    margin: 9px 14px;
+}
+
+div.passage {
+    top: calc(2vw + 70px);
+    bottom: calc(2vw + 70px);
+    left: 105vw;
+    width: calc(96vw - 8px);
+    border: solid 4px white;
+    background-color: blue;
+    color: white;
+    z-index: 11;
+    position: fixed;
+    border-radius: 12px;
+    transition: .4s;
+}
+
+div.passage p.reference {
+    color: white;
+    background-color: navy;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid 4px white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+div.passage p {
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    font-size: 20px;
+}
+
+p.close {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.citation {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 20px 24px;
+
+    background: #f4f7ff;
+    border: 1px solid #c8d4f5;
+    border-left: 5px solid #0000aa;
+    border-radius: 8px;
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.citation-label {
+    margin-bottom: 8px;
+
+    color: #0000aa;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.citation-text {
+    color: #222;
+    font-size: 0.95rem;
+}
+
+.citation-link {
+    display: inline-block;
+    margin-top: 10px;
+
+    color: #0000aa;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.citation-link:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (min-width: 800px) {
+
+    article {
+        margin: 2vw auto 0;
+        width: calc(70vw - 8px);
+        border-radius: 12px;
+        border: solid 4px navy;
+        background-color: blue;
+        color: white;
+    }
+
+    div.passage {
+        top: calc(2vw + 70px);
+        bottom: calc(2vw + 70px);
+        left: 105vw;
+        width: calc(70vw - 8px);
+        border: solid 4px white;
+        margin: 2vw auto 0;
+        background-color: blue;
+        color: white;
+        z-index: 11;
+        position: fixed;
+        border-radius: 12px;
+        transition: .4s;
+    }
+
+}

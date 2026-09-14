@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="styles/all.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/selectOption.css">
+    <link rel="stylesheet" href="styles/article.css">
 
     <!-- FONT LINKS -->
 
@@ -29,7 +29,7 @@
 
     <!-- TITLE -->
 
-    <title>Science Arguments Debunked</title> <!-- Remember to change this on every web page. -->
+    <title>Article Template</title> <!-- Remember to change this on every web page. -->
 
 </head>
 
@@ -74,19 +74,49 @@
 
     <main>
 
-       <div class="smallMenu">
-
-            <div><p class="optionHeader">Biology</p></div>
-            <div><a href="Article Template.html"><p class="left">Do Ants Have Rulers?</p></a></div>
+        <article>
             
-       </div>
+            <h1>Do Ants Have Rulers?</h1>
 
-       <div class="smallMenu">
+            <h2>Argument</h2>
 
-            <div><p class="optionHeader">Astronomy</p></div>
-            <div><a href="R Falling Stars.html"><p class="left">Can stars fall from the sky?</p></a></div>
-            
-       </div>
+            <p>The Bible says ants don't have a ruler, but they do have a ruler. Their ruler is the queen ant.</p>
+
+            <h2>Passage</h2>
+
+            <p onclick="passage1()"><u><b>Proverbs 6:6-8</b></u></p>
+
+            <h2>Short Answer</h2>
+
+            <p>The queen ant just lays eggs, and gives no instructions to any other ants. <sup><a href="#note-1">[1]</a></sup></p>
+
+            <h2>Long Answer</h2>
+
+            <h2>Objections</h2>
+
+            <h2>Sources</h2>
+
+            <ol>
+
+                <li id="#note-1">McLaughlin, Neal. <cite>“How Ants Build Complex Traffic Systems Without Any Leaders.”</cite> <cite>A-Z Animals</cite>, <time datetime="2026-01-21">January 21, 2026</time>. <a href="https://a-z-animals.com/articles/how-ants-build-complex-traffic-systems-without-any-leaders/">https://a-z-animals.com/articles/how-ants-build-complex-traffic-systems-without-any-leaders/</a>.</li>
+
+            </ol>
+
+        </article>
+
+        <div class="passage" id="passage1">
+
+            <p class="reference">Proverbs 6:6-8 (KJV)</p>
+
+            <p>6. Go to the ant, thou sluggard; consider her ways, and be wise:</p>
+
+            <p>7. Which having no guide, overseer, or ruler,</p>
+
+            <p>8. Provideth her meat in the summer, and gathereth her food in the harvest.</p>
+
+            <p class="close" onclick="passage1close()">Close Passage</p>
+
+        </div>
 
     </main>
 
@@ -102,6 +132,6 @@
 
 <!-- JAVASCRIPT -->
 
-<script src="scripts/index.js"></script>
+<script src="scripts/article.js"></script>
 
 </html>
