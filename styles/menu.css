@@ -1,0 +1,37 @@
+/* MENU CONTAINER */
+
+div.menuContainer {
+    margin: 15px auto;
+    width: 90vw;
+}
+
+div.menuContainer div {
+    background-color: blue;
+    border: solid 6px navy;
+    border-radius: 8px;
+    margin: 0 auto 15px;
+    transition: border .4s;
+}
+
+div.menuContainer div:hover {
+    border: solid white 6px;
+}
+
+div.menuContainer div a {
+    color: white;
+    text-decoration: none;
+}
+
+div.menuContainer div a p {
+    font-weight: bold;
+    text-align: center;
+}
+
+div.menuContainer div a p:first-child {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+div.menuContainer div a p:last-child {
+    padding: 5px 0 10px;
+}
