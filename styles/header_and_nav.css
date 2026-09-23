@@ -1,0 +1,119 @@
+/* HEADER */
+
+header {
+    height: 70px;
+    background-image: linear-gradient(dodgerblue, blue);
+}
+
+/* LOGO */
+
+div.logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+div.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+div.logo a span:first-child {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+}
+
+div.logo a span:last-child {
+    position: absolute;
+    top: 31px;
+    left: 8px;
+}
+
+/* MENU ICON */
+
+div.menuIcon {
+    display: flex;
+    width: 35px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    margin: 20px 18px 0 0;
+}
+
+div.menuIcon div {
+    height: 6px;
+    width: 98%;
+    margin: 0 1%;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: fixed;
+    top: 0;
+    right: -304px;
+    bottom: 100dvh;
+    z-index: 1000;
+    background-color: black;
+    width: 300px;
+    border-left: solid white 4px;
+    height: 100dvh;
+    transition: right .4s;
+}
+
+nav div.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100dvh - 160px);
+    width: 90%;
+    margin: 80px auto 0;
+}
+
+nav div.links p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav div.links p a {
+    color: white;
+    text-decoration: none;
+    transition: .4s;
+}
+
+nav div.links p a:hover, nav div.links p a.active {
+    color: dodgerblue;
+}
+
+/* X ICON */
+
+div.xIcon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 15px;
+    right: 15px;
+}
+
+div.xIcon div {
+    position: absolute;
+    top: 19.5px;
+    left: 0;
+    width: 45px;
+    height: 6px;
+    border-radius: 3px;
+}
+
+div.xIcon div:first-child {
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+div.xIcon div:last-child {
+    background-color: white;
+    transform: rotate(-45deg);
+}
