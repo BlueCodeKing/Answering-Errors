@@ -1,0 +1,44 @@
+/* ARTICLES MENU */
+
+div.articleLinkContainer {
+    margin: 15px auto;
+    width: 90vw;
+    border: solid 4px navy;
+    border-radius: 6px;
+}
+
+div.articleLinkContainer div {
+    background-color: blue;
+    border-bottom: solid 4px navy;
+    margin: 0 auto;
+    transition: border .4s;
+}
+
+div.articleLinkContainer div:hover {
+    background-color: dodgerblue;
+}
+
+div.articleLinkContainer div:first-child {
+    background-color: navy;
+}
+
+div.articleLinkContainer div:last-child {
+    border-bottom: none;
+}
+
+div.articleLinkContainer div a {
+    color: white;
+    text-decoration: none;
+}
+
+div.articleLinkContainer div a p {
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.articleLinkContainer div:first-child p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+}
