@@ -1,0 +1,97 @@
+/* HEADER */
+
+header {
+    height: 70px;
+    background-image: linear-gradient(dodgerblue, blue);
+}
+
+header div.logo {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header div.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header div.logo span:first-child {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+header div.logo span:last-child {
+    position: absolute;
+    top: 34px;
+    left: 8px;
+}
+
+header div.menuIconOpen {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 30px;
+    margin: 20px 17.5px 0 0;
+    float: right;
+    cursor: pointer;
+}
+
+header div.menuIconOpen div {
+    height: 6px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+header div.headerLinks {
+    display: none;
+}
+
+@media (min-width: 500px) {
+
+    header div.logo {
+        padding: 12px 0 0 15px;
+        font-size: 40px;
+    }
+
+    header div.logo span:first-child {
+        position: static;
+    }
+
+    header div.logo span:last-child {
+        position: static;
+    }
+
+
+}
+
+@media (min-width: 1150px) {
+
+    header div.menuIconOpen {
+        display: none;
+    }
+
+    header div.headerLinks {
+        display: block;
+        float: right;
+        margin: 20px 10px 20px 0;
+    }
+
+    header div.headerLinks a {
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        margin-right: 10px;
+        border-radius: 9px;
+        transition: .4s;
+    }
+
+    header div.headerLinks a:hover, header div.headerLinks a.active {
+        background-color: rgb(0, 0, 67);
+    }
+
+}

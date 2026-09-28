@@ -1,0 +1,35 @@
+div.menuSmallScreens {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px;
+}
+
+div.menuSmallScreens div {
+    background-color: blue;
+    padding: 10px 0 5px;
+    font-weight: bold;
+    border: solid 4px white;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+div.menuSmallScreens div:hover {
+    background-color: dodgerblue;
+}
+
+div.menuSmallScreens div a {
+    color: white;
+    text-decoration: none;
+}
+
+div.menuSmallScreens div a p:first-child {
+    font-size: 30px;
+    text-align: center;
+}
+
+div.menuSmallScreens div a p:last-child {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
