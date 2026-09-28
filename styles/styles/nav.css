@@ -1,0 +1,66 @@
+nav {
+    max-width: 320px;
+    width: 100vw;
+    height: 100dvh;
+    position: fixed;
+    right: -324px;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    border-left: solid 4px white;
+    transition: .4s;
+}
+
+nav div.links {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70dvh;
+    margin: 15dvh auto 0;
+    justify-content: space-between;
+}
+
+nav div.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    transition: .4s;
+}
+
+nav div.links a:hover, nav div.links a.active {
+    color: dodgerblue
+}
+
+nav button.menuIconClose {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+nav button.menuIconClose div {
+    width: 39px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+nav button.menuIconClose div:first-child {
+    background-color: white;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+nav button.menuIconClose div:last-child {
+    background-color: white;
+    transform: translateY(-50%) rotate(-45deg);
+}

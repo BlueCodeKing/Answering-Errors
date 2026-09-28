@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: none;
+    font-family: roboto, "open sans", "google sans", sans-serif;
+}
+
+body {
+    background-image: url(../images/background_Landscape.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
