@@ -1,0 +1,129 @@
+div.menuSmallScreens {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 20px 0;
+}
+
+div.menuSmallScreens div.title {
+    background-color: navy;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+    border: solid 4px white;
+    padding: 10px;
+}
+
+div.menuSmallScreens div.title:hover {
+    background-color: navy;
+}
+
+div.menuSmallScreens div {
+    background-color: blue;
+    font-weight: bold;
+    border: solid 4px white;
+    border-bottom-width: 3px;
+    transition: .4s;
+    border-top: none;
+    box-sizing: border-box;
+}
+
+div.menuSmallScreens div:hover {
+    background-color: dodgerblue;
+}
+
+div.menuSmallScreens div:last-child {
+    border-radius: 0 0 10px 10px;
+    border-bottom-width: 4px;
+}
+
+div.menuSmallScreens div a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: auto;
+    padding: 7px;
+}
+
+@media (min-width: 500px) {
+
+    div.menuSmallScreens {
+        margin: 20px 50px 0;
+    }
+
+    div.menuSmallScreens div.title {
+        font-size: 30px;
+    }
+
+    div.menuSmallScreens div a {
+        font-size: 20px;
+        padding: 9px;
+    }
+
+}
+
+@media (min-width: 750px) {
+
+    div.menuSmallScreens {
+        margin: 40px 15% 0;
+    }
+
+    div.menuSmallScreens div.title {
+        font-size: 38px;
+        padding: 15px;
+    }
+
+    div.menuSmallScreens div a {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    div.menuSmallScreens {
+        margin: 45px 20% 0;
+    }
+
+    div.menuSmallScreens div.title {
+        font-size: 45px;
+    }
+
+    div.menuSmallScreens div a {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+    div.menuSmallScreens {
+        margin: 50px 20% 0;
+    }
+
+}
+
+@media (min-width: 2000px) {
+
+    div.menuSmallScreens div.title {
+        font-size: 55px;
+    }
+
+    div.menuSmallScreens div a {
+        font-size: 38px;
+        padding: 12px;
+    }
+
+}
+
+@media (min-width: 2400px) {
+
+    div.menuSmallScreens div.title {
+        font-size: 65px;
+    }
+
+    div.menuSmallScreens div a {
+        font-size: 45px;
+    }
+
+}

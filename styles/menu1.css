@@ -1,0 +1,118 @@
+div.menuSmallScreens {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px 20px 0;
+}
+
+div.menuSmallScreens div {
+    background-color: blue;
+    padding: 10px 0 5px;
+    font-weight: bold;
+    border: solid 4px white;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+div.menuSmallScreens div:hover {
+    background-color: dodgerblue;
+}
+
+div.menuSmallScreens div a {
+    color: white;
+    text-decoration: none;
+}
+
+div.menuSmallScreens div a p:first-child {
+    font-size: 30px;
+    text-align: center;
+}
+
+div.menuSmallScreens div a p:last-child {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media (min-width: 500px) {
+
+    div.menuSmallScreens {
+        margin: 20px 50px 0;
+    }
+
+    div.menuSmallScreens div a p:first-child {
+        font-size: 42px;
+    }
+
+    div.menuSmallScreens div a p:last-child {
+        font-size: 25px;
+        margin-top: 8px;
+    }
+
+}
+
+@media (min-width: 750px) {
+
+    div.menuSmallScreens {
+        margin: 40px 15% 0;
+        gap: 20px;
+    }
+
+    div.menuSmallScreens div {
+        padding: 20px 0 15px;
+    }
+
+    div.menuSmallScreens div a p:first-child {
+        font-size: 52px;
+    }
+
+    div.menuSmallScreens div a p:last-child {
+        font-size: 30px;
+        margin-top: 8px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    div.menuSmallScreens {
+        margin: 45px 20% 0;
+        gap: 25px;
+    }
+
+    div.menuSmallScreens div {
+        padding: 20px 0 15px;
+    }
+
+    div.menuSmallScreens div a p:first-child {
+        font-size: 52px;
+    }
+
+    div.menuSmallScreens div a p:last-child {
+        font-size: 30px;
+        margin-top: 8px;
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+    div.menuSmallScreens {
+        margin: 50px 20% 0;
+        gap: 30px;
+    }
+
+    div.menuSmallScreens div {
+        padding: 20px 0 18px;
+    }
+
+    div.menuSmallScreens div a p:first-child {
+        font-size: 70px;
+    }
+
+    div.menuSmallScreens div a p:last-child {
+        font-size: 35px;
+        margin-top: 8px;
+    }
+
+}

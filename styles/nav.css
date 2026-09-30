@@ -64,3 +64,11 @@ nav button.menuIconClose div:last-child {
     background-color: white;
     transform: translateY(-50%) rotate(-45deg);
 }
+
+@media (min-height: 1000px) {
+
+    nav div.links a {
+        font-size: 40px;
+    }
+
+}

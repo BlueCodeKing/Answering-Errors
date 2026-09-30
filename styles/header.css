@@ -95,3 +95,27 @@ header div.headerLinks {
     }
 
 }
+
+@media (min-width: 2000px) {
+
+    header {
+        height: 110px;
+    }
+
+    header div.logo {
+        font-size: 60px;
+        padding: 20px 0 0 30px;
+    }
+
+    header div.headerLinks {
+        margin: 32px 10px 20px 0;
+    }
+
+    header div.headerLinks a {
+        font-size: 40px;
+        padding: 18px;
+        border-radius: 15px;
+        margin-right: 15px;
+    }
+
+}
